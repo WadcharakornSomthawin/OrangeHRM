@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginDataDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1fce5150-8ced-4370-b091-e46e70a7bc54</testSuiteGuid>
+   <testCaseLink>
+      <guid>27c0ba7c-ea30-4321-b6b0-b26d1853f537</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC 101 Login (Success-DataDrivenTesting)</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5d253fbe-7c36-4f0c-bb1e-95060899228b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>5d253fbe-7c36-4f0c-bb1e-95060899228b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>fc53ee37-ef97-4b7c-872a-b7981cec745a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5d253fbe-7c36-4f0c-bb1e-95060899228b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>083d3354-1908-4b55-9e1d-d01dffab2f39</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

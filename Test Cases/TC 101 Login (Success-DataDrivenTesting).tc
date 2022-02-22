@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC 101 Login (Success-DataDrivenTesting)</name>
+   <tag>UC1</tag>
+   <comment></comment>
+   <testCaseGuid>8bb57ea0-6f7b-49ac-b53c-9a91f6d9aa8d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc53ee37-ef97-4b7c-872a-b7981cec745a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>083d3354-1908-4b55-9e1d-d01dffab2f39</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
